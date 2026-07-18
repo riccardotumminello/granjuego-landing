@@ -150,8 +150,16 @@
       text-transform: uppercase;
     }
 
-    @media (max-width: 400px) {
-      body { padding: 32px 16px; }
+    @media (max-width: 600px) {
+      body { padding: 24px 20px; justify-content: center; }
+      .eyebrow { font-size: 15px; padding: 6px 16px; margin-bottom: 14px; }
+      .logo { font-size: clamp(38px, 11vw, 64px); margin-bottom: 18px; }
+      .divider { margin-bottom: 18px; }
+      .hero-frame { width: min(200px, 50vw); height: min(200px, 50vw); border-width: 5px; margin-bottom: 20px; }
+      .tagline { font-size: clamp(14px, 3.3vw, 16px); margin-bottom: 12px; }
+      .highlight { font-size: clamp(15px, 3.8vw, 17px); padding: 7px 14px; }
+      .sub { margin-top: 10px; }
+      footer { margin-top: 20px; font-size: 10px; }
     }
   </style>
 </head>
